@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LAS B AI STUDIO</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header class="topbar">
+    <h1>🎤 LAS B AI STUDIO</h1>
+    <p>Your Personal Rap Assistant</p>
+</header>
+
+<nav class="menu">
+    <button>🏠 Home</button>
+    <button>🎤 Lyrics</button>
+    <button>💥 Punchlines</button>
+    <button onclick="showAllTitles()">🎵 Titles</button>
+</nav>
+
+<div class="container">
+
+<h2>AI Lyric Writer</h2>
+
+<label>Topic</label>
+<input type="text" id="topic" placeholder="Money, Pain, Love...">
+
+<label>Style</label>
+<select id="style">
+<option>LAS B Original</option>
+<option>Trap</option>
+<option>Drill</option>
+<option>Afro Rap</option>
+<option>Storytelling</option>
+</select>
+
+<label>Mood</label>
+<select id="mood">
+<option>Aggressive</option>
+<option>Happy</option>
+<option>Sad</option>
+<option>Motivational</option>
+</select>
+
+<label>Beat</label>
+<select id="beat">
+<option>808 Trap Beat</option>
+<option>Afrobeats</option>
+<option>Piano Beat</option>
+<option>Slow Beat</option>
+</select>
+
+<label>Song Length</label>
+<select id="length">
+<option>16 Bars</option>
+<option>32 Bars</option>
+<option>Full Song</option>
+</select>
+
+<button onclick="generateLyrics()">🚀 Generate Lyrics</button>
+
+<textarea
+id="output"
+placeholder="Your lyrics will appear here..."
+readonly></textarea>
+
+<div class="buttons">
+<button onclick="copyLyrics()">📋 Copy Lyrics</button>
+<button onclick="downloadLyrics()">💾 Download</button>
+</div>
+
+</div>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>

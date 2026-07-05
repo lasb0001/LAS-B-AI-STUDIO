@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">LAS B AI STUDIO</string>
+    <string name="title_activity_main">LAS B AI STUDIO</string>
+    <string name="package_name">com.lasb.aistudio</string>
+    <string name="custom_url_scheme">com.lasb.aistudio</string>
+</resources>
